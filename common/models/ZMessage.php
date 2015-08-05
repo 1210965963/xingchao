@@ -76,4 +76,20 @@ class ZMessage extends \yii\db\ActiveRecord
             1 => '已读',
         ];
     }
+
+    public function beforeSave($insert)
+    {
+        $datetime = date('Y-m-d H:i:s');
+        if (parent::beforeSave($insert))  {
+            if ($insert) {
+                $this->created = $datetime;
+                $this->updated = $datetime;
+            } else {
+                $this->updated = $datetime;
+            }
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
