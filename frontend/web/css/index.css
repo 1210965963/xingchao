@@ -1,0 +1,81 @@
+@CHARSET "UTF-8";
+.zb{ width:324px; background:#171518; height:950px; float:left;}
+.logo{ width:324px; height:231px; border-bottom:solid 1px #f4b31b; background:url(../images/logo.jpg) no-repeat 56px 84px;}
+.zc{ width:324px; height:661px;}
+.zc ul{ padding-top:116px; font-family: "eras Bold ITC"; font-size:12px; line-height:42px; color:#FFF; text-align:center}
+.zc li{ padding-bottom:20px;}
+.zc ul a{color:#fff;text-decoration:none;background: transparent; -webkit-tap-higlight-color: transparent;transition: background-color 0.3s, color 0.3s, width 0.5s, border-width 0.3s, border-color 0.3s;}
+.zc ul a:hover{ color:#000; text-decoration:none;}
+
+.zc01{ width:324px; height:38px;background:url(../images/zc_01.png) no-repeat;}
+.zc01 a{ width:324px; height:38px; display:block;}
+.zc01 a:hover{color:#000;text-decoration:none; display:block; background:url(../images/zc_1.png) no-repeat  ;width:341px;}
+
+.zc02{ width:324px; height:38px;background:url(../images/zc_05.png) no-repeat;width:324px;}
+.zc02 a{ width:324px; height:38px; display:block; background:url(../images/zc_05.png) no-repeat;width:324px;}
+.zc02 a:hover{color:#000;text-decoration:none; display:block; background:url(../images/zc_2.png) no-repeat;width:341px; }
+
+.zc06{ width:324px; height:38px;background:url(../images/zc_06.png) no-repeat;width:324px;}
+.zc06 a{ width:324px; height:38px; display:block; background:url(../images/zc_06.png) no-repeat;width:324px;}
+.zc06 a:hover{color:#000;text-decoration:none; display:block; background:url(../images/zc_6.png) no-repeat;width:341px; }
+
+
+.zc03{ width:324px; height:38px;background:url(../images/zc_03.png) no-repeat;width:324px;}
+.zc03 a{ width:324px; height:38px; display:block; background:url(../images/zc_03.png) no-repeat;width:324px;}
+.zc03 a:hover{color:#000;text-decoration:none; display:block; background:url(../images/zc_3.png) no-repeat;width:341px; }
+
+.zc04{ width:324px; height:38px;background:url(../images/zc_04.png) no-repeat;width:324px;}
+.zc04 a{ width:324px; height:38px; display:block; background:url(../images/zc_04.png) no-repeat;width:324px;}
+.zc04 a:hover{color:#000;text-decoration:none; display:block; background:url(../images/zc_4.png) no-repeat;width:341px; }
+
+
+.zc05{ width:324px; height:38px;background:url(../images/zc_02.png) no-repeat;width:324px;}
+.zc05 a{ width:324px; height:38px; display:block; background:url(../images/zc_02.png) no-repeat;width:324px;}
+.zc05 a:hover{color:#000;text-decoration:none; display:block; background:url(../images/zc_5.png) no-repeat;width:341px; }
+
+
+.xiam{ width:324px; height:48px; color:#FFF; font:  "微软雅黑"; font-size:10px;  text-align:center;}
+.xiam label{ font-weight:bold;}
+.xiam span{ color:#b0b0b0;}
+
+
+/*菜单栏目*/
+
+
+.ybtp{ width:1596px;height:950px; background:url(../images/banner1.gif) no-repeat; margin-left:324px;}
+
+.logo_menu { float:right;position: relative; right:40px; top:54px; }
+.menu_app{width:52px; float:right; position: relative;}
+
+.menu_app button { display: block;  width:72px; height:59px; border:none;		
+  cursor:pointer;
+ 	float:right; 
+ 	background: url(../images/yc_1.png) no-repeat center;}
+	
+.menu_app button:hover { background: url(../images/list.png)  no-repeat center; color: #fff;}
+
+
+/*qq栏目*/
+
+
+.qq { float:right;position: relative; right:52px; top:54px; }
+.qq_h{width:52px; float:right; position: relative;}
+
+.qq_h button { display: block;  width:100px; height:106px; border:none;		
+  
+ 	float:right; 
+ 	background: url(../images/qq.png) no-repeat center; position: absolute; margin:800px -10px;}
+
+.qq_h button:hover { background:url(../images/qq_h.png) no-repeat  2px 4px  ; color: #fff;}
+
+
+
+.sjh { float:right;position: relative; right:52px; top:54px; }
+.sjh_h{width:52px; float:right; position: relative;}
+
+.sjh_h button { display: block;  width:100px; height:106px; border:none;		
+  
+ 	float:right; 
+ 	background: url(../images/qq_sj.png) no-repeat center; position: absolute; margin:800px 45px;}
+
+.sjh_h button:hover { background:url(../images/qq_sjh.png) no-repeat  1px 3px  ; color: #fff;}

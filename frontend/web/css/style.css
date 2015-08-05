@@ -1,0 +1,35 @@
+/*---------- base ---------*/
+
+body {font:12px/1.5 \5b8b\4f53,Arial,sans-serif;color:#333}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight:normal;font-size:100%; font-family:微软雅黑}
+
+ol,ul {list-style:none;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+input,select,button{font:12px Verdana,Arial,Tahoma;	vertical-align:middle;}
+
+/*---------- stock ---------*/
+
+.clear{overflow:hidden; clear:both}
+.fl{ float:left}
+.fr{ float:right}
+.clearfix{*zoom:1;}
+.clearfix:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden; content:".";}
+
+
+
+a{color:#333;text-decoration:none;}
+a:hover{color:#59871f;text-decoration:underline;}
+
+
+
+
+
+#Music{ position: absolute; margin:130px 1506px;}
+
+
+
+/*qq栏目*/
+
+
